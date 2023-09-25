@@ -1,0 +1,143 @@
+/* StockMarket.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+  }
+  /* StockMarket.css */
+
+/* Styles for the filter card */
+.filter-card {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .date-label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .date-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .reset-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reset-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  /* Container styles */
+  .stock-app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Title styles */
+  .app-title {
+    font-size: 24px;
+    color: #007bff; /* Blue */
+    display: flex;
+    align-items: center;
+  }
+  
+  .app-title svg {
+    margin-right: 10px;
+  }
+  
+  /* Search input styles */
+  .search-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .symbol-input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .symbol-input:focus {
+    border-color: #007bff;
+  }
+  
+  /* Stock info styles */
+  .stock-title {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .stock-data {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    white-space: pre-wrap;
+    color: #333;
+  }
+  
+  /* Loading text styles */
+  .loading-text {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+  }
+  /* StockMarket.css */
+
+.stock-table-container {
+    overflow-x: auto;
+  }
+  
+  .stock-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .stock-table th,
+  .stock-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .stock-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .stock-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .stock-table tbody tr:hover {
+    background-color: #ddd;
+  }
