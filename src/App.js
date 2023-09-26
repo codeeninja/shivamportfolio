@@ -1,9 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import {Routes, Route} from 'react-router-dom';
 import HomePage from './HomePage';
-import NavHeadBar from './NavHeadBar';
 import Stockmarket from './Stockmarket';
 function App() {
   return (
