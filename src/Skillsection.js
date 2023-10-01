@@ -3,7 +3,7 @@ import "./App.css";
 import Fade from "react-reveal/Fade";
 export default function Skillsection() {
   return (
-    <div>
+    <div className='container'>
         <Fade delay={500}>
           <div className="container "id="skill">
             <div className="row mx-auto" >

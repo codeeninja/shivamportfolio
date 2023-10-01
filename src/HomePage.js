@@ -8,6 +8,7 @@ import Edunexpsection from "./Edunexpsection";
 import Services from "./Services";
 import ContactMe from "./ContactMe";
 import Footer from "./Footer";
+import Project from "./Project";
 
 export default function HomePage() {
   return (
@@ -47,6 +48,7 @@ export default function HomePage() {
          <Aboutme />
         <Skillsection />
           <Edunexpsection />
+        <Project />
           <Services />
           <ContactMe />
         </div>

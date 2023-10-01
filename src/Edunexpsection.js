@@ -75,7 +75,7 @@ export default function Edunexpsection() {
                       </li>
                     </ul>
                   </div>
-                </div>
+                </div> 
               </div>
               <div className="col-md-6">
                 <h2 className="card-title fw-normal mb-4">Experience</h2>

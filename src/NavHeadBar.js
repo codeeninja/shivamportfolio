@@ -48,6 +48,13 @@ export default function NavHeadBar() {
                 </Nav.Link>
                 <Nav.Link
                   className="hoverLink"
+                  href="#project"
+                  style={{ color: "white", marginRight: "40px" }}
+                >
+                  Project
+                </Nav.Link>
+                <Nav.Link
+                  className="hoverLink"
                   href="#service"
                   style={{ color: "white", marginRight: "40px" }}
                 >
