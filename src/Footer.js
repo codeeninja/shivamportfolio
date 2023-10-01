@@ -81,7 +81,7 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <footer>© Your Copyright 2021 All Rights Reserved</footer>
+            <footer>© ShivamPortfolio 2023 All Rights Reserved</footer>
           </section>
         </div>
       </div>
