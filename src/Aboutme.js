@@ -45,7 +45,7 @@ export default function Aboutme() {
                   </li>
                 </ul>
               </div>
-              <a href="public/ShivamRKaleResume.pdf" download>
+              <a href="https://drive.google.com/file/d/19UIFBKrwZFUFmm_Yqw19SW894gTPP8Q1/view?usp=drive_link" target='_blank'>
                 <button className="btn btn-outline-warning">Download</button>
               </a>
             </div>
