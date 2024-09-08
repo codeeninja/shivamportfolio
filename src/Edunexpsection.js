@@ -110,7 +110,7 @@ export default function Edunexpsection() {
                       <div className="title">2023 - 2024</div>
                       <div className="details">
                         <h5>Node Js Developer</h5>
-                        <small className="fg-theme">Amika Software</small>
+                        <small className="fg-theme">Amika Software</small>     
                         <p>
                           Worked alongside experienced developers and contribute to the development of
                           dynamic web Apis .
