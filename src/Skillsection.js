@@ -309,6 +309,27 @@ export default function Skillsection() {
                     86%
                   </div>
                 </div>
+                <p className="mt-2">ASP.NET MVC</p>
+                <div
+                  className="progress"
+                  style={{
+                    border: "3px solid orange",
+                    height: "25px",
+                    borderRadius: "30px",
+                    width: "80%",
+                  }}
+                >
+                  <div
+                    className="progress-bar"
+                    role="progressbar"
+                    style={{ width: "86%", backgroundColor: "oranged" }}
+                    aria-valuenow="86"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    90%
+                  </div>
+                </div>
               </div>
             </div>
           </div>
